@@ -1,0 +1,10 @@
+body,p,h1,h2,h3,h4,h5,h6,ul,li,ol,dl,dt,dd,input,form/*群组选择器*/{
+margin:0px;/*清除外边距*/
+list-style:none;/*清除小圆点*/
+padding:0px;/*清除内边距*/
+font-family:Arial,"微软雅黑","黑体";/*设置字体*/
+font-size:14px;/*设置字的大小*/
+}
+a{
+color:#333;/*更改链接中字的颜色*/
+text-decoration:none;/*去掉链接中字的下划线*/}

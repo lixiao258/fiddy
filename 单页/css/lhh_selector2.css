@@ -1,0 +1,423 @@
+.lhh_boxs{
+	width: 1200px;
+	height: 1038px;
+	margin: 0 auto;
+	box-shadow: 0 0 5px #ccc;
+
+}
+
+.lhh_boxbottom{
+	width: 100%;
+	height: 44px;
+	margin-top: 100px;
+}
+.lhh_boxbottoms{
+	width: 300px;
+	height: 40px;
+	margin:0 auto;
+}
+.lhh_bottomleft{
+	width: 100px;
+	height: 100%;
+	float: left;
+	background: #6bddf6;
+	border-radius: 22px;
+	text-align: center; line-height: 40px;
+	color: #fff;
+	font-size: 16px;
+}
+.lhh_bottomright{
+	width: 100px;
+	height: 100%;
+	float: right;
+	background: #edc446;
+	border-radius: 22px;
+	text-align: center; line-height: 40px;
+	color: #fff;
+	font-size: 16px;
+}
+.lhh_bigbox{
+	width: 810px;
+	height: 790px;
+	position: relative;
+	left: 146px;
+	top:66px;
+}
+.lhh_box{
+	width: 100%;
+	height: 32px;
+	margin-bottom: 20px;
+	position: relative;
+}
+.lhh_box1{
+	width: 800px;
+	height: 32px;
+	position: relative;
+}
+.lhh_box1 .lhh_left{
+	width: 60px;
+	height: 32px;
+	float: left;
+	margin-right: 24px;
+	font-size: 14px;
+	color: #929292;
+	line-height: 32px;
+}
+.lhh_box1 .lhh_right{
+	width: 217px;
+	height: 28px;
+	float: left;
+	border-radius: 5px;
+	border: 2px solid #eee;
+	padding-left: 10px;
+	position: relative;
+}
+.lhh_box1 .lhh_right p{
+	width: auto;
+	height: 28px;
+	line-height: 28px;
+	font-size: 14px;
+	color: #929292;
+	float: left;
+}
+.lhh_box1 .lhh_right .lhh_sanjiaos{
+	width: 25px;
+	height: 32px;
+	position: relative;
+	float: right;
+}
+.lhh_box1 .lhh_right .lhh_sanjiao{
+	width: 0;
+	height: 0;
+	border-bottom: 0;
+	border-top: 9px solid #626262;
+	border-left: 6px solid #fff;
+	border-right: 6px solid #fff;
+	position: absolute;
+	top: 10px;
+	right: 5px;
+}
+.lhh_box1 .lhh_right .lhh_sanjiaos:hover{
+	cursor: pointer;
+}
+.lhh_hidden{
+	width: 227px;
+	height: auto;
+	border: 2px solid #eee;
+	position: absolute; 
+	left: 84px;
+	top: 32px;
+	display: none;
+	background: #fff;
+	color: #000;
+	z-index: 12;
+}
+.lhh_hidden li{
+	width: auto;
+	height: 28px;
+	font-size: 14px;
+	color: #929292;
+	line-height: 28px;
+
+}
+.lhh_hidden li p{
+	width: auto;
+	margin-left: 10px;
+}
+.lhh_hidden li:hover{
+	cursor: pointer;
+	background: #000;
+	color: #fff;
+	
+}
+/*输入框*/
+.lhh_inputbox{
+	width: 100%;
+	height: 32px;
+	margin-bottom: 20px;
+}
+.lhh_inputbox1{
+	width: 315px;
+	height: 100%;
+}
+.lhh_inputbox1 .lhh_inputleft{
+	width: 60px;
+	height: 32px;
+	float: left;
+	margin-right: 24px;
+	font-size: 14px;
+	color: #929292;
+	line-height: 32px;
+}
+.lhh_inputbox1 .lhh_inputright{
+	width: 227px;
+	height: 28px;
+	float: left;
+	border-radius: 5px;
+	border: 2px solid #eee;
+}
+
+/*平面设计师*/
+.lhh_designbox{
+	width: 100%;
+	height: 30px;
+	margin-bottom: 20px;
+}
+.lhh_design{
+	width: 700px;
+	height: 100%;
+	margin-left: 84px;
+}
+.lhh_design li{
+	width: 120px;
+	height: 30px;
+	float: left;
+	margin-right: 20px;
+	border-radius: 15px;
+	text-align: center;
+	line-height: 30px;
+	font-size: 14px;
+}
+/*签名*/
+.lhh_inputboxs{
+	width: 100%;
+	height: 78px;
+	margin-bottom: 20px;
+}
+.lhh_inputboxs1{
+	width: 520px;
+	height: 78px;
+}
+.lhh_inputboxs1 .lhh_inputlefts{
+	width: 65px;
+	height: 100%;
+	margin-right: 20px;
+	font-size: 14px;
+	padding-top: 5px;
+	color: #929292;
+	float: left;
+}
+.lhh_inputboxs1 .lhh_inputrights{
+	display: block;
+	width: 420px;
+	height: 74px;
+	border: 2px solid #eee;
+	float: left;
+	border-radius: 5px;
+	resize:none;
+}
+
+/*第二页*/
+.lhh_headphotobox{
+	width: 100%;
+	height: 88px;
+	margin-top: 60px;
+	margin-bottom: 20px;
+}
+.lhh_headphotobox .lhh_headphoto{
+	width: 208px;
+	height: 88px;
+}
+.lhh_headphoto  .left{
+	width: 48px;
+	height: 88px;
+	margin-right: 60px;
+	padding-top: 12px;
+	float: left;
+}
+.lhh_headphoto  .left p{
+	width: 60px;
+	height: 16px;
+	font-size: 14px;
+	color: #929292;
+}
+.lhh_headphoto  .right{
+	width: 84px;
+	height: 100%;
+	float: right
+}
+/*昵称*/
+.lhh_nichengbox{
+	width: 100%;
+	height: 32px;
+	margin-bottom: 20px;
+}
+.lhh_nicheng{
+	width: 655px;
+	height: 32px;
+}
+.lhh_nicheng li{
+	float: left;
+}
+.lhh_nicheng .left{
+	width: 268px;
+	height: 100%;
+	margin-right: 40px;
+}
+.lhh_nicheng .center{
+	width: 150px;
+	height: 100%;
+	margin-right: 50px;
+}
+.lhh_nicheng .right{
+	width: 146px;
+	height: 100%;
+}
+/*真实姓名*/
+.lhh_namebox{
+	width: 100%;
+	height: 32px;
+	margin-bottom: 20px;
+}
+.lhh_name{
+	width: 760px;
+	height: 100%;
+}
+.lhh_name .lhh_nameleft{
+	width: 270px;
+	height: 32px;
+	float: left;
+}
+.lhh_name .lhh_nameright{
+	width: 460px;
+	height: 32px;
+	float: left;
+}
+
+/*求职意向*/
+.lhh_intendbox{
+	width: 100%;
+	height: 32px;
+	margin-bottom: 20px;
+}
+.lhh_intend{
+	width: 800px;
+	height: 32px;
+}
+.lhh_intend .lhh_intendleft{
+	width:220px;
+	height:100%;
+	float: left;
+	margin-right: 20px;
+}
+.lhh_intend .lhh_intendright{
+	width: 280px;
+	height: 100%;
+	float:left;
+}
+/*手机号码*/
+.lhh_phonenumbox{
+	width: 100%;
+	height: 32px;
+	margin-bottom: 20px;
+}
+.lhh_phonenum{
+	width: 410px;
+	height: 32px;
+}
+.lhh_phonenum .lhh_phoneleft{
+	width: 270px;
+	height: 32px;
+	float: left;
+	margin-right: 34px;
+}
+.lhh_phonenum .lhh_phoneright{
+	width: 100px;
+	height: 32px;
+	float: left;
+	border-radius: 16px;
+	background: #7ee3b2;
+	font-size: 14px;
+	color: #fff;
+	text-align: center;
+	line-height: 32px;
+}
+/*邮箱*/
+.email{
+	margin-bottom: 60px;
+}
+
+/*毕业院校*/
+.lhh_schoolbox{
+	width: 100%;
+	height: 32px;
+	margin-bottom: 20px;
+}
+.lhh_school{
+	width: 555px;
+	height: 32px;
+}
+.lhh_school .lhh_schoolleft{
+	width: 266px;
+	height: 32px;
+	float: left;
+	margin-right: 23px;
+}
+.lhh_school .lhh_schoolright{
+	width: 266px;
+	height: 32px;
+	float: left;
+}
+
+/*毕业时间*/
+.lhh_graduatebox{
+	width: 100%;
+	height: 32px;
+	margin-bottom: 20px;
+}
+.lhh_graduate{
+	width: 500px;
+	height: 32px;
+}
+.lhh_graduate .lhh_graduateleft{
+	width: 270px;
+	height: 32px;
+	float: left;
+	margin-right: 20px;
+}
+.lhh_graduate .lhh_graduateright{
+	width: 210px;
+	height: 32px;
+	float: left;
+}
+
+.lhh_location{
+	width: 130px;
+	height: auto;
+	float: left;
+	margin-right: 10px;
+
+}
+.lhh_intend .lhh_short{
+	width: 120px;
+	height: 32px;
+	float: left;
+	margin-right: 10px;
+}
+.lhh_intend .lhh_job{
+	width: 130px;
+	height: auto;
+}
+.lhh_graduate .lhh_short{
+	width: 120px;
+	height: auto;
+}
+.lhh_graduate .lhh_middle{
+	width: 170px;
+	height: auto;
+}
+.lhh_graduate .lhh_shorts{
+	width: 130px;
+	height: auto;
+}
+.lhh_graduate .lhh_middles{
+	width: 180px;
+	height: auto;
+}
+.lhh_nicheng .lhh_small{
+	width: 80px;
+	height: auto;
+}.lhh_nicheng .lhh_smalls{
+	width: 70px;
+	height: auto;
+}

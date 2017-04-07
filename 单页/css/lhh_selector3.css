@@ -1,0 +1,277 @@
+.lhh_boxs{
+	width: 1200px;
+	height: 900px;
+	margin: 0 auto;
+box-shadow: 0 0 5px #ccc;
+}
+.lhh_boxbottom{
+	width: 100%;
+	height: 44px;
+	margin-top: 100px;
+}
+.lhh_boxbottoms{
+	display: block;
+	width: 100px;
+	height: 40px;
+	margin-left:84px;
+	text-align: center;
+	line-height: 40px;
+	color: #fff;
+	background:  #edc446;
+	border-radius: 22px;
+	font-size: 16px;
+}
+.lhh_bigbox{
+	width: 810px;
+	height: 770px;
+	position: relative;
+	left: 146px;
+	top:60px;
+}
+
+.lhh_box{
+	width: 100%;
+	height: 32px;
+	margin-bottom: 20px;
+	position: relative;
+}
+.lhh_box1{
+	width: 700px;
+	height: 32px;
+	position: relative;
+}
+.lhh_box1 .lhh_left{
+	width: 60px;
+	height: 32px;
+	float: left;
+	margin-right: 24px;
+	font-size: 14px;
+	color: #929292;
+	line-height: 32px;
+}
+.lhh_box1 .lhh_right{
+	width: 217px;
+	height: 28px;
+	float: left;
+	border-radius: 5px;
+	border: 2px solid #eee;
+	padding-left: 10px;
+	position: relative;
+}
+.lhh_box1 .lhh_right p{
+	width: auto;
+	height: 28px;
+	line-height: 28px;
+	font-size: 14px;
+	color: #929292;
+	float: left;
+}
+.lhh_box1 .lhh_right .lhh_sanjiaos{
+	width: 25px;
+	height: 32px;
+	position: relative;
+	float: right;
+}
+.lhh_box1 .lhh_right .lhh_sanjiao{
+	width: 0;
+	height: 0;
+	border-bottom: 0;
+	border-top: 9px solid #626262;
+	border-left: 6px solid #fff;
+	border-right: 6px solid #fff;
+	position: absolute;
+	top: 10px;
+	right: 5px;
+}
+.lhh_box1 .lhh_right .lhh_sanjiaos:hover{
+	cursor: pointer;
+}
+.lhh_hidden{
+	width: 227px;
+	height: auto;
+	border: 2px solid #eee;
+	position: absolute; 
+	left: 84px;
+	top: 32px;
+	display: none;
+	background: #fff;
+	color: #000;
+	z-index: 12;
+}
+.lhh_hidden li{
+	width: auto;
+	height: 28px;
+	font-size: 14px;
+	color: #929292;
+	line-height: 28px;
+
+}
+.lhh_hidden li p{
+	width: auto;
+	margin-left: 10px;
+}
+.lhh_hidden li:hover{
+	cursor: pointer;
+	background: #000;
+	color: #fff;
+	
+}
+/*输入框*/
+.lhh_inputbox{
+	width: 100%;
+	height: 32px;
+	margin-bottom: 20px;
+}
+.lhh_inputbox1{
+	width: 315px;
+	height: 100%;
+}
+.lhh_inputbox1 .lhh_inputleft{
+	width: 60px;
+	height: 32px;
+	float: left;
+	margin-right: 24px;
+	font-size: 14px;
+	color: #929292;
+	line-height: 32px;
+}
+.lhh_inputbox1 .lhh_inputright{
+	width: 227px;
+	height: 28px;
+	float: left;
+	border-radius: 5px;
+	border: 2px solid #eee;
+}
+.lhh_inputrights{
+	width:400px;
+	height: auto;
+	float: left;
+	border-radius: 5px;
+	resize:none;
+}
+.lhh_height{
+	width: 400px;
+	height: 144px;
+	float: left;
+	resize:none;
+	border-radius: 5px;
+	border: 2px solid #eee;
+
+}
+
+/*岗位职责，职位要求*/
+.lhh_inputboxs{
+	width: 100%;
+	height: 78px;
+	margin-bottom: 20px;
+}
+.lhh_inputboxs1{
+	width: 520px;
+	height: 78px;
+}
+.lhh_inputboxs1 .lhh_inputlefts{
+	width: 65px;
+	height: 100%;
+	margin-right: 20px;
+	font-size: 14px;
+	padding-top: 5px;
+	color: #929292;
+	float: left;
+}
+.lhh_inputboxs1 .lhh_inputrights{
+	display: block;
+	width: 420px;
+	height: 74px;
+	border: 2px solid #eee;
+	float: left;
+	border-radius: 5px;
+}
+
+
+/*公司logo*/
+.lhh_headphotobox{
+	width: 100%;
+	height: 88px;
+	margin-top: 60px;
+	margin-bottom: 20px;
+}
+.lhh_headphotobox .lhh_headphoto{
+	width: 208px;
+	height: 88px;
+}
+.lhh_headphoto  .left{
+	width: 48px;
+	height: 88px;
+	margin-right: 60px;
+	padding-top: 12px;
+	float: left;
+}
+.lhh_headphoto  .left p{
+	width: 60px;
+	height: 16px;
+	font-size: 14px;
+	color: #929292;
+}
+.lhh_headphoto  .right{
+	width: 84px;
+	height: 100%;
+	float: right
+}
+
+/*企业简介*/
+.lhh_inputboxs .lhh_inputboxs1 p{
+	margin-top: 8px;
+	font-size: 14px;
+	color: #929292;
+}
+/*企业规模*/
+.lhh_scalbox{
+	width: 100%;
+	height: 32px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+.lhh_scal{
+	width: 270px;
+	height: 32px;
+}
+/*企业官网*/
+.lhh_officewebbox{
+	width: 100%;
+	height: 32px;
+	margin-bottom: 20px;
+}
+.lhh_officewebbox .lhh_officeweb{
+	width: 500px;
+	height: 32px;
+}
+.lhh_officewebbox .lhh_officeweb .lhh_officewebleft{
+	float: left;
+	margin-right: 38px;
+}
+.lhh_officewebbox .lhh_officeweb .lhh_officewebright{
+	float: left;
+	width: 95px;
+	height: 32px;
+	border-radius: 16px;
+	background: #7ee3b2;
+	text-align: center;
+	line-height: 32px;
+	color: #fff;
+	font-size: 14px;
+}
+
+
+.lhh_location{
+	width: 130px;
+	height: auto;
+	float: left;
+	margin-right: 10px;
+
+}
+.lhh_box1 .lhh_rights .lhh_short{
+	width: 120px;
+	height: 32px;
+	float: left;
+	margin-right: 10px;
+}
